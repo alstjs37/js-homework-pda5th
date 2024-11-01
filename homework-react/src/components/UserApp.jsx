@@ -7,6 +7,12 @@ export default function UserApp() {
   return (
     <div>
       <h1>Users</h1>
+
+      <ListGroup>
+        <ListGroup.Item>0</ListGroup.Item>
+        <ListGroup.Item>1</ListGroup.Item>
+      </ListGroup>
+
     </div>
   );
 }
