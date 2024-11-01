@@ -1,0 +1,47 @@
+[
+  {
+    "symbolCode": "KR7005930003",
+    "date": "2024-10-07",
+    "candleTime": "2024-10-07 00:00:00",
+    "tradePrice": 59300,
+    "openingPrice": 60200,
+    "highPrice": 61900,
+    "lowPrice": 58900,
+    "change": null,
+    "changePrice": null,
+    "changeRate": null,
+    "candleAccTradeVolume": 135089165,
+    "candleAccTradePrice": 8088131021800,
+    "timestamp": 1728226800000
+  },
+  {
+    "symbolCode": "KR7005930003",
+    "date": "2024-10-14",
+    "candleTime": "2024-10-14 00:00:00",
+    "tradePrice": 59200,
+    "openingPrice": 59500,
+    "highPrice": 61400,
+    "lowPrice": 59100,
+    "change": null,
+    "changePrice": null,
+    "changeRate": null,
+    "candleAccTradeVolume": 100957149,
+    "candleAccTradePrice": 6057087344700,
+    "timestamp": 1728831600000
+  },
+  {
+    "symbolCode": "KR7005930003",
+    "date": "2024-10-21",
+    "candleTime": "2024-10-21 00:00:00",
+    "tradePrice": 55900,
+    "openingPrice": 59000,
+    "highPrice": 60000,
+    "lowPrice": 55800,
+    "change": null,
+    "changePrice": null,
+    "changeRate": null,
+    "candleAccTradeVolume": 128077700,
+    "candleAccTradePrice": 7401459379100,
+    "timestamp": 1729436400000
+  }
+]
