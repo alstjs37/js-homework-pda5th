@@ -17,7 +17,7 @@ const searchUrl = [
 async function main() {
     let resultObj = {};
 
-    // 뉴스기사 수집
+    // 뉴스기사 수집 후 파싱
     for(let i = 0; i < searchUrl.length; i++) {
         const res = await axios.get(searchUrl[i]);
         const data = res.data;
@@ -36,7 +36,7 @@ async function main() {
     }
 
     // 파일에 저장
-    fs.writeFile('./news.json', JSON.stringify(resultObj), (err) => {
+    fs.writeFile('./news.json', JSON.stringify(resultObj, null, 2), (err) => {
         console.error(err);
     })
 }
