@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import Table from "react-bootstrap/Table";
 import TableRow from "./TableRow";
 
-const promiseObj = async function getStockData() {
+const stockPromiseObj = async function getStockData() {
   const url = 'http://localhost:5173/data/stock.json';
   const res = await axios.get(url);
   const data = res.data;
@@ -16,7 +16,7 @@ export default function StockApp() {
   const [stockData, setStockData] = useState([]);
 
   useEffect(() => {
-    promiseObj().then((data) => {
+    stockPromiseObj().then((data) => {
       setStockData(data);
     })
   }, []);
